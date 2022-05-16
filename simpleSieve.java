@@ -3,7 +3,7 @@ public class simpleSieve {
 
     public static void prime(int arr[], int n) {
 
-        if (arr[0] == n || arr[0] == -1)
+        if (arr[0] == -1)
             return;
         else {
 
