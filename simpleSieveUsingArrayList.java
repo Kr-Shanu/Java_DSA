@@ -5,6 +5,9 @@ public class simpleSieveUsingArrayList {
     // function to print all the prime numbers
     static void prime(ArrayList<Integer> arr) {
 
+        System.out.println(arr);
+        System.out.println();
+
         // Here the exit condition states, if there is only 1 left then print it and exit
         if(arr.size()==1)
         {
@@ -28,14 +31,13 @@ public class simpleSieveUsingArrayList {
             }
 
             // after checking we print the number as prime and then we remove it.
-            System.out.print(arr.get(0)+", ");
+            System.out.println(arr.get(0)+", ");
             arr.remove(0);
 
             // we perform recursion operation on it uptil exit condition.
             prime(arr);
         }
     }
-
     public static void main(String args[]){
 
         Scanner sc = new Scanner(System.in);
@@ -48,7 +50,7 @@ public class simpleSieveUsingArrayList {
         ArrayList<Integer> arr = new ArrayList<Integer>();
 
         // taking the number in array list and passing it to the prime function.
-        for(int i = 0; i<num;i++)
+        for(int i = 1; i<(num-1);i++)
         {
             arr.add(i+1);
         }
