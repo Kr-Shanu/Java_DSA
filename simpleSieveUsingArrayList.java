@@ -50,13 +50,11 @@ public class simpleSieveUsingArrayList {
         ArrayList<Integer> arr = new ArrayList<Integer>();
 
         // taking the number in array list and passing it to the prime function.
-        for(int i = 1; i<(num-1);i++)
+        for(int i = 1; i<=(num-1);i++)
         {
             arr.add(i+1);
         }
-
         prime(arr);
-
     }
 
 }
