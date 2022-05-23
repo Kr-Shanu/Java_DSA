@@ -41,7 +41,8 @@ in following form.
 
   - Examples: 
   - 
-  - Input : 1 1 1 0 0 
+  - Input 
+  -         1 1 1 0 0 
   -         0 1 0 0 0 
   -         1 1 1 0 0 
   -         0 0 0 0 0 
@@ -49,11 +50,12 @@ in following form.
   - Output : 7
   - Below is the hour glass with
   - maximum sum:
-  - 1 1 1 
-  -   1
-  - 1 1 1
+  -         1 1 1 
+  -           1
+  -         1 1 1
                                                       
-  - Input : 0 3 0 0 0
+  - Input   
+  -         0 3 0 0 0
   -         0 1 0 0 0
   -         1 1 1 0 0
   -         0 0 2 4 4
@@ -101,12 +103,14 @@ Let the input array be arr[] and size of the array be size.
 
 Examples : 
 
-  - Input : {3, 3, 4, 2, 4, 4, 2, 4, 4}
+  - Input 
+  -     {3, 3, 4, 2, 4, 4, 2, 4, 4}
   - Output : 4
   - Explanation: The frequency of 4 is 5 which is greater
 than the half of the size of the array size. 
 
-  - Input : {3, 3, 4, 2, 4, 4, 2, 4}
+  - Input 
+  -      {3, 3, 4, 2, 4, 4, 2, 4}
   - Output : No Majority Element
   - Explanation: There is no element whose frequency is
 greater than the half of the size of the array size.
@@ -135,11 +139,11 @@ greater than the half of the size of the array size.
 
   - Strobogrammatic Number is a number whose numeral is rotationally symmetric so that it appears the same when rotated 180 degrees. In other words, Strobogrammatic Number appears the same right-side up and upside down.
 
-  - 0 after 180° rotation : (0 → 0)
-  - 1 after 180° rotation : (1 → 1)
-  - 8 after 180° rotation : (8 → 8)
-  - 6 after 180° rotation : (6 → 9)
-  - 9 after 180° rotation : (9 → 6)
+  -     0 after 180° rotation : (0 → 0)
+  -     1 after 180° rotation : (1 → 1)
+  -     8 after 180° rotation : (8 → 8)
+  -     6 after 180° rotation : (6 → 9)
+  -     9 after 180° rotation : (9 → 6)
 
   - Examples :  - 
 
@@ -147,7 +151,9 @@ greater than the half of the size of the array size.
   - Output : 88  11  96  69
 
   - Input : n = 4
-  - Output : 8008 1001 9006 6009 8888 1881 9886 6889 8118 1111
+  - Output : 
+  
+  -          8008 1001 9006 6009 8888 1881 9886 6889 8118 1111
   -          9116 6119 8968 1961 9966 6969 8698 1691 9696 6699
 
 22. [Sum Of Number Divisible by 3 & 5](sumOfNumberDivisibleBy3And5.java) 
