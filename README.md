@@ -4,4 +4,8 @@ The given repo contains some of the important DSA questions in java.
 
 The questions are as follows :
 
-1. [Alice Apple](https://github.com/Kr-Shanu/Java_DSA/blob/master/aliceApple.java) : 
+
+1. [Age Detector](ageDetector.java):
+2. [Alice Apple](aliceApple.java) : 
+3. [binaryPaliandrome](binaryPaliandrome.java) :
+4. 
