@@ -1,9 +1,9 @@
-// take input
-// check length of input
-// check frequency
-// check palinadrome
-// output
-// can even exclude even count 
+// Take input
+// Check length of input
+// Check frequency
+// Check paliandrome
+// Output
+// Can even exclude even count 
 import java.util.*;
 public class lexicographicPaliandrome {
 
