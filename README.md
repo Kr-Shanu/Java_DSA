@@ -11,11 +11,11 @@ The questions are as follows :
 2.  [Alice Apple](aliceApple.java) 
   - There are different kinds of apple trees in the four directions (East, West, North, South), which may grow both red and green apples    such that each tree grows exactly K apples, in the following manner:
 
-N – number of trees to the north do not have red apples.
-S – number of trees to the south do not have green apples.
-W – number of trees in the west have some red apples.
-E – number of trees in the east have some green apples.
-However, the colors of apples can not be distinguished outside the house. So, the task is to find the minimum number of apples to be collected from the trees to guarantee M red apples. If it is not possible, print -1.
+  - N – number of trees to the north do not have red apples.
+  - S – number of trees to the south do not have green apples.
+  - W – number of trees in the west have some red apples.
+  - E – number of trees in the east have some green apples.
+  - However, the colors of apples can not be distinguished outside the house. So, the task is to find the minimum number of apples to be collected from the trees to guarantee M red apples. If it is not possible, print -1.
 
 3.  [Binary Paliandrome](binaryPaliandrome.java) 
   - Check whether the given number is Binary Paliandrome or Not.
@@ -32,47 +32,49 @@ However, the colors of apples can not be distinguished outside the house. So, th
 7.  [Hour Glass](hourGlass.java) 
   - Given a 2D matrix, the task is to find the maximum sum of an hourglass.
 
-An hour glass is made of 7 cells
+  - An hour glass is made of 7 cells
 in following form.
-    A B C
-      D
-    E F G
-Examples: 
+  -     A B C
+  -       D
+  -     E F G
 
-Input : 1 1 1 0 0 
-        0 1 0 0 0 
-        1 1 1 0 0 
-        0 0 0 0 0 
-        0 0 0 0 0 
-Output : 7
-Below is the hour glass with
-maximum sum:
-1 1 1 
-  1
-1 1 1
+
+  - Examples: 
+  - 
+  - Input : 1 1 1 0 0 
+  -         0 1 0 0 0 
+  -         1 1 1 0 0 
+  -         0 0 0 0 0 
+  -         0 0 0 0 0 
+  - Output : 7
+  - Below is the hour glass with
+  - maximum sum:
+  - 1 1 1 
+  -   1
+  - 1 1 1
                                                       
-Input : 0 3 0 0 0
-        0 1 0 0 0
-        1 1 1 0 0
-        0 0 2 4 4
-        0 0 0 2 4
-Output : 11
-Below is the hour glass with
-maximum sum
-1 0 0
-  4
-0 2 4
+  - Input : 0 3 0 0 0
+  -         0 1 0 0 0
+  -         1 1 1 0 0
+  -         0 0 2 4 4
+  -         0 0 0 2 4
+  - Output : 11
+  - Below is the hour glass with
+  - maximum sum
+  - 1 0 0
+  -   4
+  - 0 2 4
 
 8.  [Kaprekar](kaprekar.java) :
   -  A Kaprekar number is a number whose square when divided into two parts and such that sum of parts is equal to the original number and none of the parts has value 0. 
 
-Input :  n = 45  
-Output : Yes
-Explanation : 452 = 2025 and 20 + 25 is 45
+  - Input :  n = 45  
+  - Output : Yes
+  - Explanation : 452 = 2025 and 20 + 25 is 45
 
-Input : n = 13
-Output : No
-Explanation : 132 = 169. Neither 16 + 9 nor 1 + 69 is equal to 13
+  - Input : n = 13
+  - Output : No
+  - Explanation : 132 = 169. Neither 16 + 9 nor 1 + 69 is equal to 13
 
 9.  [Lab Allocation](labAllocation.java) : 
 
@@ -83,13 +85,13 @@ Let the input array be arr[] and size of the array be size.
 11. [Lexicographic Paliandrome](lexicographicPaliandrome.java) 
   - Rearrange the characters of the given string to form a lexicographically first palindromic string. If no such string exists display message “no palindromic string”.
 
-Examples:
+  - Examples:
 
-Input : malayalam
-Output : aalmymlaa
+  - Input : malayalam
+  - Output : aalmymlaa
 
-Input : apple
-Output : no palindromic string
+  - Input : apple
+  - Output : no palindromic string
 
 12. [Longest Occurance Of one By Flipping Only One Zero Of a Binary](longestOneByFlippingOneZero.java) 
   - Find the longest occurance of one in the binary number if we get to replace one of the zero of the given binary number.
@@ -100,13 +102,13 @@ Output : no palindromic string
 Examples : 
 
   - Input : {3, 3, 4, 2, 4, 4, 2, 4, 4}
-Output : 4
-Explanation: The frequency of 4 is 5 which is greater
+  - Output : 4
+  - Explanation: The frequency of 4 is 5 which is greater
 than the half of the size of the array size. 
 
   - Input : {3, 3, 4, 2, 4, 4, 2, 4}
-Output : No Majority Element
-Explanation: There is no element whose frequency is
+  - Output : No Majority Element
+  - Explanation: There is no element whose frequency is
 greater than the half of the size of the array size.
 
 14. [Finding Mango Tree](mango.java) 
@@ -134,19 +136,19 @@ greater than the half of the size of the array size.
   - Strobogrammatic Number is a number whose numeral is rotationally symmetric so that it appears the same when rotated 180 degrees. In other words, Strobogrammatic Number appears the same right-side up and upside down.
 
   - 0 after 180° rotation : (0 → 0)
-1 after 180° rotation : (1 → 1)
-8 after 180° rotation : (8 → 8)
-6 after 180° rotation : (6 → 9)
-9 after 180° rotation : (9 → 6)
+  - 1 after 180° rotation : (1 → 1)
+  - 8 after 180° rotation : (8 → 8)
+  - 6 after 180° rotation : (6 → 9)
+  - 9 after 180° rotation : (9 → 6)
 
-  - Examples :
+  - Examples :  - 
 
-Input : n = 2
-Output : 88  11  96  69
+  - Input : n = 2
+  - Output : 88  11  96  69
 
-Input : n = 4
-Output : 8008 1001 9006 6009 8888 1881 9886 6889 8118 1111
-         9116 6119 8968 1961 9966 6969 8698 1691 9696 6699
+  - Input : n = 4
+  - Output : 8008 1001 9006 6009 8888 1881 9886 6889 8118 1111
+  -          9116 6119 8968 1961 9966 6969 8698 1691 9696 6699
 
 22. [Sum Of Number Divisible by 3 & 5](sumOfNumberDivisibleBy3And5.java) 
   - Find all the number divisible by 3 and 5 between the given range
