@@ -5,9 +5,11 @@ The given repo contains some of the important DSA questions in java.
 The questions are as follows :
 
 
-1.  [Age Detector](ageDetector.java): Find the current age of the user if user enters the last two digits of the year of birth and the current year.
+1.  [Age Detector](ageDetector.java) 
+  - Find the current age of the user if user enters the last two digits of the year of birth and the current year.
 
-2.  [Alice Apple](aliceApple.java) : There are different kinds of apple trees in the four directions (East, West, North, South), which may grow both red and green apples such that each tree grows exactly K apples, in the following manner:
+2.  [Alice Apple](aliceApple.java) 
+  - There are different kinds of apple trees in the four directions (East, West, North, South), which may grow both red and green apples    such that each tree grows exactly K apples, in the following manner:
 
 N – number of trees to the north do not have red apples.
 S – number of trees to the south do not have green apples.
@@ -15,15 +17,20 @@ W – number of trees in the west have some red apples.
 E – number of trees in the east have some green apples.
 However, the colors of apples can not be distinguished outside the house. So, the task is to find the minimum number of apples to be collected from the trees to guarantee M red apples. If it is not possible, print -1.
 
-3.  [Binary Paliandrome](binaryPaliandrome.java) : Check whether the given number is Binary Paliandrome or Not.
+3.  [Binary Paliandrome](binaryPaliandrome.java) 
+  - Check whether the given number is Binary Paliandrome or Not.
 
-4.  [Co Prime](coPrime.java) : Find sum of all co prime of the given number.
+4.  [Co Prime](coPrime.java) 
+  - Find sum of all co prime of the given number.
 
-5.  [Confused Pappu](confusedPappu.java) : Pappu is confused between 6 & 9. He works in the billing department of abc company and his work is to return the remaining amount to the customers. If the actual remaining amount is given we need to find the maximum possible extra amount given by the pappu to the customers.
+5.  [Confused Pappu](confusedPappu.java) 
+  - Pappu is confused between 6 & 9. He works in the billing department of abc company and his work is to return the remaining amount to the customers. If the actual remaining amount is given we need to find the maximum possible extra amount given by the pappu to the customers.
 
-6.  [GCD](gcd.java) : Find the greatest common factor of two numbers.
+6.  [GCD](gcd.java) 
+  - Find the greatest common factor of two numbers.
 
-7.  [Hour Glass](hourGlass.java) : Given a 2D matrix, the task is to find the maximum sum of an hourglass.
+7.  [Hour Glass](hourGlass.java) 
+  - Given a 2D matrix, the task is to find the maximum sum of an hourglass.
 
 An hour glass is made of 7 cells
 in following form.
@@ -56,7 +63,8 @@ maximum sum
   4
 0 2 4
 
-8.  [Kaprekar](kaprekar.java) : A Kaprekar number is a number whose square when divided into two parts and such that sum of parts is equal to the original number and none of the parts has value 0. 
+8.  [Kaprekar](kaprekar.java) :
+  -  A Kaprekar number is a number whose square when divided into two parts and such that sum of parts is equal to the original number and none of the parts has value 0. 
 
 Input :  n = 45  
 Output : Yes
@@ -68,10 +76,12 @@ Explanation : 132 = 169. Neither 16 + 9 nor 1 + 69 is equal to 13
 
 9.  [Lab Allocation](labAllocation.java) : 
 
-10. [Leader In Array](leaderInAnArray.java) : Write a program to print all the LEADERS in the array. An element is leader if it is greater than all the elements to its right side. And the rightmost element is always a leader. For example in the array {16, 17, 4, 3, 5, 2}, leaders are 17, 5 and 2. 
+10. [Leader In Array](leaderInAnArray.java) 
+  - Write a program to print all the LEADERS in the array. An element is leader if it is greater than all the elements to its right side. And the rightmost element is always a leader. For example in the array {16, 17, 4, 3, 5, 2}, leaders are 17, 5 and 2. 
 Let the input array be arr[] and size of the array be size.
 
-11. [Lexicographic Paliandrome](lexicographicPaliandrome.java) : Rearrange the characters of the given string to form a lexicographically first palindromic string. If no such string exists display message “no palindromic string”.
+11. [Lexicographic Paliandrome](lexicographicPaliandrome.java) 
+  - Rearrange the characters of the given string to form a lexicographically first palindromic string. If no such string exists display message “no palindromic string”.
 
 Examples:
 
@@ -81,7 +91,8 @@ Output : aalmymlaa
 Input : apple
 Output : no palindromic string
 
-12. [Longest Occurance Of one By Flipping Only One Zero Of a Binary](longestOneByFlippingOneZero.java) : Find the longest occurance of one in the binary number if we get to replace one of the zero of the given binary number.
+12. [Longest Occurance Of one By Flipping Only One Zero Of a Binary](longestOneByFlippingOneZero.java) 
+  - Find the longest occurance of one in the binary number if we get to replace one of the zero of the given binary number.
 
 13. [Majority Element](majorityElements.java) : Write a function which takes an array and prints the majority element (if it exists), otherwise prints “No Majority Element”. A majority element in an array A[] of size n is an element that appears more than n/2 times (and hence there is at most one such element). 
 
