@@ -94,45 +94,52 @@ Output : no palindromic string
 12. [Longest Occurance Of one By Flipping Only One Zero Of a Binary](longestOneByFlippingOneZero.java) 
   - Find the longest occurance of one in the binary number if we get to replace one of the zero of the given binary number.
 
-13. [Majority Element](majorityElements.java) : Write a function which takes an array and prints the majority element (if it exists), otherwise prints “No Majority Element”. A majority element in an array A[] of size n is an element that appears more than n/2 times (and hence there is at most one such element). 
+13. [Majority Element](majorityElements.java) 
+  - Write a function which takes an array and prints the majority element (if it exists), otherwise prints “No Majority Element”. A majority element in an array A[] of size n is an element that appears more than n/2 times (and hence there is at most one such element). 
 
 Examples : 
 
-Input : {3, 3, 4, 2, 4, 4, 2, 4, 4}
+  - Input : {3, 3, 4, 2, 4, 4, 2, 4, 4}
 Output : 4
 Explanation: The frequency of 4 is 5 which is greater
 than the half of the size of the array size. 
 
-Input : {3, 3, 4, 2, 4, 4, 2, 4}
+  - Input : {3, 3, 4, 2, 4, 4, 2, 4}
 Output : No Majority Element
 Explanation: There is no element whose frequency is
 greater than the half of the size of the array size.
 
-14. [Finding Mango Tree](mango.java) : Dora is very much interested in gardening and she decides to plant more trees in her garden. She plants trees in the order of rows and columns. She numbered the trees in column wise order. She planted the mango trees only in the second column from both first and last. But later when the trees grew up, she forgot where she planted mango trees. So help her find out whether the given tree number is a number of mango trees or not. Display whether “It is a mango tree” or “It is not a mango tree”.
+14. [Finding Mango Tree](mango.java) 
+  - Dora is very much interested in gardening and she decides to plant more trees in her garden. She plants trees in the order of rows and columns. She numbered the trees in column wise order. She planted the mango trees only in the second column from both first and last. But later when the trees grew up, she forgot where she planted mango trees. So help her find out whether the given tree number is a number of mango trees or not. Display whether “It is a mango tree” or “It is not a mango tree”.
 
-15. [Max Multiple Of a Sub-Array](maxMultipleOfSubArray.java) : Write an efficient program to find the sum of contiguous subarray within a one-dimensional array of numbers that has the largest sum. 
+15. [Max Multiple Of a Sub-Array](maxMultipleOfSubArray.java) 
+  - Write an efficient program to find the sum of contiguous subarray within a one-dimensional array of numbers that has the largest sum. 
 
-16. [Prime Number](prime.java) : Find prime number between 2 to the number given by th e user.
+16. [Prime Number](prime.java) 
+  - Find prime number between 2 to the number given by th e user.
 
-17. [Reverse binary](reverseBinary.java) : Reverse the binary number given by the user.
+17. [Reverse binary](reverseBinary.java) 
+  - Reverse the binary number given by the user.
 
-18. [Selection Sort](selectionSort.java) : Perform selection sort in ascending and descending order of the given array.
+18. [Selection Sort](selectionSort.java) 
+  - Perform selection sort in ascending and descending order of the given array.
 
 19. [Series 7](series7.java) :
 
 20. [Simple Sieve](simpleSieve) : 
 
-21. [Strobogramatic Number](strobogrammatic.java) : For the given length n, find all n-length Strobogrammatic numbers.
+21. [Strobogramatic Number](strobogrammatic.java) 
+  - For the given length n, find all n-length Strobogrammatic numbers.
 
-Strobogrammatic Number is a number whose numeral is rotationally symmetric so that it appears the same when rotated 180 degrees. In other words, Strobogrammatic Number appears the same right-side up and upside down.
+  - Strobogrammatic Number is a number whose numeral is rotationally symmetric so that it appears the same when rotated 180 degrees. In other words, Strobogrammatic Number appears the same right-side up and upside down.
 
-0 after 180° rotation : (0 → 0)
+  - 0 after 180° rotation : (0 → 0)
 1 after 180° rotation : (1 → 1)
 8 after 180° rotation : (8 → 8)
 6 after 180° rotation : (6 → 9)
 9 after 180° rotation : (9 → 6)
 
-Examples :
+  - Examples :
 
 Input : n = 2
 Output : 88  11  96  69
@@ -141,7 +148,9 @@ Input : n = 4
 Output : 8008 1001 9006 6009 8888 1881 9886 6889 8118 1111
          9116 6119 8968 1961 9966 6969 8698 1691 9696 6699
 
-22. [Sum Of Number Divisible by 3 & 5](sumOfNumberDivisibleBy3And5.java) : Find all the number divisible by 3 and 5 between the given range
+22. [Sum Of Number Divisible by 3 & 5](sumOfNumberDivisibleBy3And5.java) 
+  - Find all the number divisible by 3 and 5 between the given range
 
 
-23. [Sum Of Prime Factors](sumOfPrimeFactors.java) : Find sum of prime factors.
+23. [Sum Of Prime Factors](sumOfPrimeFactors.java) 
+  - Find sum of prime factors.
