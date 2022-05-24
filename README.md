@@ -191,3 +191,17 @@ greater than the half of the size of the array size.
 
 26. [Concept of Natural Sorting](Natural_Sort.txt)
 - Concept: Diffence between Computer and Natural Sorting.
+
+27. [Block Swap Array](blockSwapArray.java) 
+  - Write a function rotate(ar[], d, n) that rotates arr[] of size n by d elements.
+
+  - Example :-
+
+  - Input:
+
+  -          {1, 2, 3, 4, 5}
+  -          d = 2
+
+  - Output:
+
+  -          Swapped array: {3, 4, 5, 1, 2}
