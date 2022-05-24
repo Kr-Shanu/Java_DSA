@@ -1,0 +1,11 @@
+If we want to sort the following :
+
+        A2 A1 A3 A4 A5 A21 A12 A13 A14 A32
+
+- Natural Sorting 
+
+        A1 A2 A3 A4 A5 A12 A13 A14 A21 A32
+
+- Computer Sorting
+
+        A1 A12 A12 A14 A2 A21 A3 A32 A4 A5
