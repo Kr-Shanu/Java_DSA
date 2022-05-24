@@ -205,3 +205,13 @@ greater than the half of the size of the array size.
   - Output:
 
   -          Swapped array: {3, 4, 5, 1, 2}
+
+28. [Count Co-Primes](coPrimeWithGCD.java)
+  - Count the number of co prime the given number has, do remember a prime number has co prime number equal to n-1, where n is the prime number.
+
+  - Example:-
+
+  - Input:
+  -          n = 13
+  - Output:
+  -          The count of coprime for 13 = 12
