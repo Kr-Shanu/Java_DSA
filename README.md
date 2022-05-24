@@ -162,3 +162,12 @@ greater than the half of the size of the array size.
 
 23. [Sum Of Prime Factors](sumOfPrimeFactors.java) 
   - Find sum of prime factors.
+
+24. [Move the hyphen to the start](moveTheHyphenToTheStart.java)
+  - Move all the hyphen in the sentence to the start of the string, also place spaces in between to distinguish different words.
+
+  - Input :
+  -          "Move-the-hyphen-to-the-start"
+
+  - Output :
+  -          "-----Move the hyphen to the start"
