@@ -11,10 +11,21 @@ public class moveTheHyphenToTheStart {
         return result;
     }
 
+    // function using custom function
     public static void printWithoutHyphen(String str) {
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == '-')
                 str = "-" + sub(str,0, i) + " " + sub(str, i + 1, str.length());
+        }
+        System.out.println("Output :");
+        System.out.println(str);
+    }
+
+    // function using string.substring method
+    public static void printWithoutHyphenUsingSubstring(String str) {
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == '-')
+                str = "-" + str.substring(0, i) + " " + str.substring(i + 1, str.length());
         }
         System.out.println("Output :");
         System.out.println(str);
@@ -26,5 +37,8 @@ public class moveTheHyphenToTheStart {
         String sentence = sc.nextLine();
         sc.close();
         printWithoutHyphen(sentence);
+        printWithoutHyphenUsingSubstring(sentence);
     }
 }
+
+//  Evaluation => The substring, predefined function is faster than the custom function 
