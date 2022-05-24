@@ -171,3 +171,23 @@ greater than the half of the size of the array size.
 
   - Output :
   -          "-----Move the hyphen to the start"
+
+25. [MANACHERS](Manachers.java)
+  - This is a method to check paliandrome number where we split the word into two half and compare them side by side.
+
+  - Example :
+
+  - Input :
+  -          APPLE
+
+  - Split it 
+  -          AP-P-LE
+
+  - Check P with L and A with E
+
+  - Output :
+  
+  -          The given word is not paliandrome
+
+26. [Concept of Natural Sorting](Natural_Sort.txt)
+- Concept: Diffence between Computer and Natural Sorting.
