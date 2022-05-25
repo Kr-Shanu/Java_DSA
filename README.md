@@ -215,3 +215,14 @@ greater than the half of the size of the array size.
   -          n = 13
   - Output:
   -          The count of coprime for 13 = 12
+
+29. [Permutation](permutation.java)
+  - Find all the permuation of a given character array or integer array.
+
+  - Example
+
+  - Input:
+  -          {A, B, C}
+
+  - Output:  
+  -          ABC ACB BAC BCA CBA CAB
